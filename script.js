@@ -16,7 +16,7 @@ codes.forEach((code, idx) => {
       }, 10);
 
       if (idx === (codeLength - 1)) {
-        console.log("s");
+        // console.log("s");
         setTimeout(() => {
           alert("Your Account is now verified!");
         }, 10);
